@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/StrukturyDrzewiaste/index.html</file>
+            <file>file:/C:/xampp/htdocs/StrukturyDrzewiaste/css/mystyle.css</file>
+            <file>file:/C:/xampp/htdocs/StrukturyDrzewiaste/js/drzewa.js</file>
+            <file>file:/C:/xampp/htdocs/StrukturyDrzewiaste/php/getAllRoots.php</file>
+            <file>file:/C:/xampp/htdocs/StrukturyDrzewiaste/php/addNode.php</file>
+            <file>file:/C:/xampp/htdocs/StrukturyDrzewiaste/php/changeNode.php</file>
+            <file>file:/C:/xampp/htdocs/StrukturyDrzewiaste/php/getTree.php</file>
+            <file>file:/C:/xampp/htdocs/StrukturyDrzewiaste/php/deleteNode.php</file>
+            <file>file:/C:/xampp/htdocs/StrukturyDrzewiaste/php/addTree.php</file>
+        </group>
+    </open-files>
+</project-private>

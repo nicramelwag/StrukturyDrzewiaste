@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Struktury drzewiaste</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/jquery.popupoverlay.js"></script>
+        <script src="js/alert.js"></script>
+        <script src="js/drzewa.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div id="menu">
+                    <div class="menuitem" onclick="newRoot()"><img src="img/new.png" alt="Nowe drzewo" width="128" height="128"></div>
+                    <a href="index.html"><div class="menuitem"><img src="img/trees.png" alt="Przegląd drzew" width="128" height="128"></div></a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <div id="drzewa">
+                    
+                </div>
+            </article>
+        </main>
+        <aside>
+            <div id="dialogDelete" title="Usunąć węzeł?">
+                Czy na pewno chcesz usunąć ten węzeł wraz z jego wszystkimi węzłami potomnymi?
+            </div>
+            <div id="dialogEdit" title="Edytuj nazwę">
+                <label>Nowa nazwa</label>
+                <input type="text" id="inputEdit">
+            </div>
+            <div id="dialog-form" title="Stwórz nowe drzewo">
+                <label>Nazwa drzewa</label>
+                <input type="text" id="inputAddTree">
+            </div>
+        </aside>
+    </body>
+</html>
