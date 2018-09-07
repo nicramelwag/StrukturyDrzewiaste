@@ -6,3 +6,12 @@ function showAlert(text) {
 		});
 	});
 }
+
+function showMessage(text) {
+	$('body').append('<div class="message">'+text+'</div>');
+	$('.message').fadeIn(1000, function(){
+		$('.message').fadeOut(3000, function () {
+			$('.message').remove();
+		});
+	});
+}
